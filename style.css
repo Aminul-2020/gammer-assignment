@@ -14,16 +14,16 @@ header{
     margin:0 auto;
 }
 .logo{
-display: flex;
-padding: 0 5px;
-align-items: center;
+    display: flex;
+    padding: 0 5px;
+    align-items: center;
 
 }
 .logo img{
     width: 3rem;
-height: 1.5rem;
-flex-shrink: 0;
-margin-right: 20px;
+    height: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 20px;
 
 }
 .logo-title{
@@ -49,6 +49,9 @@ margin-right: 20px;
     font-style: normal;
     line-height: normal;
 }
+.follow{
+    background: rgba(11, 2, 35, 0.10);;
+}
     /*main section starts*/
     main{
         
@@ -72,53 +75,53 @@ margin-right: 20px;
 
 .play-like-the{
     color: #0B0223;
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase; 
-   margin-bottom: 0px;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-bottom: 0px;
    
 }
 .goat{
-font-size: 5rem;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-margin-top: 0px;
-margin-bottom: 0px;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .banner-contert p{
     color: #534C64;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: lowercase;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
 }
 .btn-primary{
     color: #FFF;
-font-size: 1rem;
-font-weight: 600;
-padding: 0.8rem 1.5rem;
-gap: 10px;
-border-radius: 3rem;
-background: #FF42A5;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    gap: 10px;
+    border-radius: 3rem;
+    background: #FF42A5;
 }
 .btn-secondary{
     color: #FFF;
-font-size: 1rem;
-font-weight: 600;
-padding: 0.8rem 1.5rem;
-gap: 10px;
-border-radius: 3rem;
-background: #4EC5F7;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    gap: 10px;
+    border-radius: 3rem;
+    background: #4EC5F7;
 }
 .banner-img img{
     height: 450px;
@@ -132,31 +135,31 @@ background: #4EC5F7;
 }
 .online-game-title{
     color: #0B0223;
-text-align: center;
-font-size: 2.1rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 0px;
+    text-align: center;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
 
 }
 .funny-video{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .online-game-para{
     color: #534C64;
-text-align: center;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
-margin-top: 0px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 0px;
 }
 .card-container{
     display: flex;
@@ -176,15 +179,15 @@ margin-top: 0px;
     transition: box-shadow 0.3s ease;
 }
 .card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: .5;
   }
   .watch-now {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 60%;
+    right: 30%;
     padding: 8px 16px;
-    background-color: #4CAF50;
-    color: #ffffff;
+    color: #ee0d89;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -193,8 +196,10 @@ margin-top: 0px;
   }
   
   .card:hover .watch-now {
-    opacity: 1;
+    opacity: .8;
   }
+  
+  
 /*play instantly starts*/
 .play-instantly{
     display: flex;
@@ -225,64 +230,74 @@ margin-top: 0px;
 }
 .play-instantly-para{
     color: #534C64;
-font-size: .8rem;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-width: 19.375rem;
-text-align: justify;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 19.375rem;
+    text-align: justify;
+}
+.card-container{
+    position: relative;
 }
 .warior{
     width: 25rem;
-    position: ;
+    flex-grow: 1;
 }
 .baby-warior{
     width: 12rem;
-    position: relative;
-    top:70px;
-    right: -107px;
+    position: absolute;
+    top: 1450px;
+    right: 32%;
+    flex-grow: 0;
 }
 /*game store section starts*/
 .game-store{
     width: 80%;
+    margin: 80px auto;
     display: grid;
-    place-items: center;
-    justify-items: center;
     grid-template-columns: repeat(5, 1fr);
-    margin: 100px auto;
-    align-items: center;
-    justify-content: space-between;
+    
 }
 .store-container{
     display: flex;
-    gap:20px;
+    gap:8px;
     align-items: center;
     justify-content: center;
     align-self: center;
     justify-self: center;
-    width: 200px;
-    height: 80px;
-    border-radius: 50px;
+    width: 170px;
+    height: 35px;
+    border-radius: 35px;
+    padding:2px;
 }
 .store-container:hover{
-    border: 1px solid #F948B2;
-    text-emphasis-color: #F948B2;
+    border:1px solid #F948B2;
+    color: #F948B2;
+}
+.store-container:hover .store-container{
+    color: #F948B2;
 }
 
 
 .store-container img{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     flex-shrink: 0;
-    border-radius: 50px;
-    
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
 }
-.store-container p{
+.store-container button{
+    border: none;
+    background: none;
     color: #0B0223;
-font-size: 15px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0;
+    padding: 0;
 }
 
 /*footer starts*/
@@ -298,12 +313,22 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.logo-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo-2 img,p{
+    padding: 10px;
+}
 .amar{
     color:#FFF;
 }
 .foot-2{
-    display: flex;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0x;
     color: #FFF;
     text-align: center;
     justify-content: center;
@@ -329,16 +354,17 @@ footer{
 
 .foot-4{
     color: rgba(255, 255, 255, 0.60);
-text-align: center;
-margin: 0 auto;
-font-size: 12px;
-gap:40px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-display: flex;
-align-items: center;
-justify-content: center;
+    text-align: center;
+    margin: 0 350px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    gap:40px;
 }
 .foot-5{
     color: rgba(255, 255, 255, 0.60);
@@ -347,6 +373,7 @@ justify-content: center;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 0 120px;
 }
 
 
@@ -366,7 +393,7 @@ justify-content: center;
 /*media query for mobile*/
 
 @media screen and (max-width:576px) {
-    header, .nav, .banner, .card-container, .play-instantly{
+    header, .nav, .banner, .card-container, .play-instantly, footer, .game-store-row2, .game-store-row1{
         flex-direction: column;
     }
     header{
@@ -396,6 +423,41 @@ justify-content: center;
         top:300px;
         right: 0px;
     }
+    .game-store{
+        width: 80%;
+        margin: 100px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap:8px
+    }
+    .store-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        width: 130px;
+        height: 20px;
+        border-radius: 30px;
+        margin:0px;
+        padding: 0px;
+    }
+    .store-container img{
+        width: 15px;
+        height: 15px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        
+    }
+    .store-container button{
+        color: #0B0223;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 150;
+    line-height: normal;
+    }
     .play-instantly-content{
         margin: 0px;
         text-align: center;
@@ -404,6 +466,31 @@ justify-content: center;
         text-align: center;
         margin-left: 0rem;
     }
+    .foot-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40x;
+        color: #FFF;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin:0 auto;
+    }
+    .foot-4{
+        dsplay:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:0px;
+        margin: 0 auto;
+    }
+    .game-store{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    
 }
 
 
@@ -416,7 +503,7 @@ justify-content: center;
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .banner{
+    .banner, .card-container, .play-instantly{
         flex-direction: column;
     }
     .nav{
@@ -428,12 +515,13 @@ justify-content: center;
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    
     .banner-content{
-        .banner-content{
-            width: 100%;
-            padding: 50px;
-            background-size:480px 500px ;
-            background-repeat: no-repeat;
+        width: 100%;
+        padding: 50px;
+        background-size:480px 500px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
     }
     .banner-img img{
         height:500px;
@@ -444,9 +532,9 @@ justify-content: center;
         width: 80%;
     }
     .card-container{
-        flex-wrap: wrap;
         justify-content: center;
         gap:30px;
+        margin: 0 auto;
 
     }
     .card-container .card{
@@ -456,7 +544,35 @@ justify-content: center;
     .card-container .card img{
         width:230px;
     }
-    
-
+    .card-container{
+        position: relative;
+    }
+    .warior{
+        margin: 0 auto;
+        width: 25rem;
+        flex-grow: 1;
+    }
+    .baby-warior{
+        width: 12rem;
+        position: absolute;
+        top: 3450px;
+        left: 25%;
+        flex-grow: 0;
+    }
+    .game-store{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .card{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .play-instantly{
+        margin:0 150px;
+    }
+    .play-instantly-img{
+        margin: 0 auto;
+    }
 
 }
