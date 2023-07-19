@@ -20,15 +20,15 @@ align-items: center;
 
 }
 .logo img{
-    width: 5rem;
-height: 2.5rem;
+    width: 3rem;
+height: 1.5rem;
 flex-shrink: 0;
 margin-right: 20px;
 
 }
 .logo-title{
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 1.2rem;
     font-style: normal;
 
 line-height: normal;
@@ -120,6 +120,52 @@ background: #4EC5F7;
     height: 450px;
     width: auto;    
 }
+/*banner section ends*/
+/*online game section starts*/
+.online-game{
+    width: 80%;
+    margin: 60px auto;
+}
+.online-game-title{
+    color: #0B0223;
+text-align: center;
+font-size: 2.1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+
+}
+.funny-video{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-game-para{
+    color: #534C64;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 0px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-container .card{
+    width:250px;
+    height: auto;
+}
+.card-container .card img{
+    width:260px;
+}
 
 
 
@@ -136,19 +182,23 @@ background: #4EC5F7;
 
 
 
-
-
-
-
+/*media query for mobile*/
 
 @media screen and (max-width:576px) {
-    header, .nav{
+    header, .nav, .banner, .card-container{
         flex-direction: column;
     }
     header{
-        width:100%;
+        width:90%;
     }
-    
+    .banner-img img{
+        height:350px;
+        width:auto;
+        margin-top: 40px;
+    }
+    .card-container{
+        align-items: center;
+    }
 }
 
 
@@ -161,7 +211,7 @@ background: #4EC5F7;
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    header{
+    header, .banner{
         flex-direction: column;
     }
     .nav{
@@ -174,4 +224,27 @@ background: #4EC5F7;
         margin-bottom: 0px;
 
     }
+    .banner-img img{
+        height:500px;
+        width:auto;
+        margin-top: 40px;
+    }
+    .funny-video{
+        width: 100%;
+    }
+    .card-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:20px;
+
+    }
+    .card-container .card{
+        width:230px;
+        height: auto;
+    }
+    .card-container .card img{
+        width:230px;
+    }
+
+
 }
