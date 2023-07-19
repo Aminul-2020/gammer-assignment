@@ -184,7 +184,7 @@ header{
   }
   .watch-now {
     position: absolute;
-    bottom: 60%;
+    bottom: 55%;
     right: 30%;
     padding: 8px 16px;
     color: #ee0d89;
@@ -193,6 +193,11 @@ header{
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease;
+  }
+  .watch-now i{
+    height: 40px;
+    width: 40px;
+    font-size: 50px;
   }
   
   .card:hover .watch-now {
@@ -251,24 +256,26 @@ header{
     right: 32%;
     flex-grow: 0;
 }
+
 /*game store section starts*/
 .game-store{
     width: 80%;
     margin: 80px auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .store-container{
     display: flex;
-    gap:8px;
+    gap:10px;
     align-items: center;
     justify-content: center;
     align-self: center;
     justify-self: center;
-    width: 170px;
-    height: 35px;
-    border-radius: 35px;
+    width: 190px;
+    height: 50px;
+    border-radius: 40px;
     padding:2px;
 }
 .store-container:hover{
@@ -281,10 +288,10 @@ header{
 
 
 .store-container img{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     flex-shrink: 0;
-    border-radius: 30px;
+    border-radius: 35px;
     margin: 0;
     padding: 0;
 }
@@ -292,7 +299,7 @@ header{
     border: none;
     background: none;
     color: #0B0223;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -355,8 +362,8 @@ footer{
 .foot-4{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    margin: 0 350px;
-    font-size: 12px;
+    margin: 0 320px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
@@ -432,6 +439,7 @@ footer{
         justify-content: center;
         gap:8px
     }
+    
     .store-container{
         display: flex;
         align-items: center;
@@ -439,7 +447,7 @@ footer{
         align-self: center;
         justify-self: center;
         width: 130px;
-        height: 20px;
+        height: 30px;
         border-radius: 30px;
         margin:0px;
         padding: 0px;
