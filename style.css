@@ -278,12 +278,11 @@ header{
     border-radius: 40px;
     padding:2px;
 }
-.store-container:hover{
+.store-container:hover {
     border:1px solid #F948B2;
-    color: #F948B2;
 }
-.store-container:hover .store-container{
-    color: #F948B2;
+.store-container button:hover{
+    color: #F948B2 !important;
 }
 
 
